@@ -1,0 +1,24 @@
+{
+  "name": "be/app-payment",
+  "type": "library",
+  "description": "支付",
+  "keywords": [
+    "Payment",
+    "支付"
+  ],
+  "authors": [
+    {
+      "name": "1024i team",
+      "email": "1024i@1024i.com",
+      "homepage": "https://www.1024i.com/team"
+    }
+  ],
+  "require": {
+    "be/be": "~2.7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Be\\App\\Payment\\": "src/"
+    }
+  }
+}
